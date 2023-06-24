@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Skate'n'Roll</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon, and boxicons -->
+    <link href="img/skate.ico" rel="icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0 my-nav">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class='bx bxs-hand-right' ></i>Skate'n'Roll</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="sobre.html" class="nav-item nav-link">Sobre</a>
+                <a href="loja.html" class="nav-item nav-link">A loja</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Peças</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="pskate.html" class="dropdown-item">Skate</a>
+                        <a href="plong.html" class="dropdown-item">Longboard</a>
+                        <a href="ppatins.html" class="dropdown-item">Patins e Rollers</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contato</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Inscreva-se aqui<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/mullent.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Skate'n'Roll</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Skate, Patins, Longboard. Temos tudo para os amantes desses esportes</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Skate'n'Roll é praticidade na compra pra que voçe não precise parar o rolê</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Veja mais</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Se inscreva agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/skateparts.jpeg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Melhores Marcas</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Aqui voçê encontra marcas como:</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Drop, havaianas, essa e aquela.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Veja mais</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Se inscreva</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAepJREFUeF7tm8FRw0AQBMdvEiAPyIMEIAoCMARAFDgB8oA8SIC3XeaBq6BkD1vjRSda79PsqT23c3WWVuKKElhF1RATQMMmAChAwwTCcjgUoGECYbmkQy8lPUm6kXRRnOeHpBdJ95Leixp/elsS6Kukq9DTvEm6Dmm1yqSA3kp6Ds/8TtImrHl2uRTQB0nr8GwfJe11h7oAGv65AArQMIGwHA4FaJhAWA6HAjRMICyHQwEaJhCWw6EA/SIwy9OtkR06y9OtUYHO9nRrVKCzPd0C6CGUIseFAAXoJwGWfGG7d2wJAhSgvyPQ7ZjuejYNQolQIpTs5fJtIKFUJTdxH0ABqtgbzN2p213P9gopT8qT8vZyIeUPBLp7Wnc92xT0UHooPdReLvRQeugPs9BD6aH0UHpogUD3vrC7no2EHkoPpYfay4V9KPtQ9qFHlgvvNlV7SeE/LLsUKU/Kk/L2ciHlSXlSfpSU7/6IoLue3bZSKb8v2P2ZS3c9C2oSaPeHWN312oFaBZc+KOnQpbOyng+gFiZ/EEB9VtZIgFqY/EEA9VlZIwFqYfIHnQK69aX+1chJbgCt+QCgNW6TdwEUoGECYTkcCtAwgbBc2aHheSxf7tS2afkEwk8IUICGCYTlcChAwwTCcjg0DHQHMUbTVShN4EwAAAAASUVORK5CYII="/>
+                            <h5 class="mb-3">Melhores fornecedores</h5>
+                            <p>Fornecedores escolhidos a dedo, comprometidos com a melhor qualidade sem abrir mão da praticidade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAABXVJREFUeF7tnAuO1joMhcNKuKwEWMmFlQArAVZyLysBVgI60m+UqTo+x46TVKiVRvP4U8f56lfSTF60+yol8KJU2i2s3UCLjeAGegMtJlAs7rbQG2gxgWJxV7LQf1prb1pr+I7r5eNn/I6vH4+/47v9/K372//FbFLidgMFqHettX87kKmBPCB/ba0B7Da4O4AaxA9ZcsJ9sGBANcDCLTVNVgIFyM8Pt67RXpMCuO9XWe0KoAAJa4Rr77y+tNY+dfF3ii4zga5w7SgUWCvCAOBaYovKcNvPAops/V+pprXCABPWCrCl1wygcG3EyqtfZq0fKxWtBgqQu2NllA8stQxqFdBdGfwMHtz45yMRqnBhrW8r4moVUMRLxM0rXGZx0aRYArUC6JVg4oGi5uyTTcR7MBmApaavUaBXjJmvTlw3Yq14GHgoqWsE6BWzObMwgIVH2QLMc9DSiSoL9Kp15pl1HqEpUNPT1SzQXyl/mHsTYp+6yqRCDWf+DNCrxU1ARMyLTiUB9Tt5xuF4GgWqKDHLDhHX+qti3ZOFrrDrR4HuLJGiuqoPFrMkb22WJbon/USUZE9THUC2XUTXaB/MUOT4HFGSdRodRLR9RNeobBbKZCtVlbxCzanqGoVp7ZnrS1aqKrk7s4ezbYIqK6UkHVSgKC/Y7CIxBvmW4/xcvjHY0LNSZHxMHNxLAbrb3aWBsIGKn7NYSt1eAbrb3ekgRFhqMy/50jm+AtRzd3RQsUnhbLDhololRtp55SH1FgWoN2+3mKKs4CjjtW022GJT9lpC6bhrM+T2DCiLn3Y/y5DqmJg+qpzRdp7buyGIDcADeiwjKqAyfUZBqfd7ecONo2wAnuCzUmYUKtNHBTLazjOkpUAxkBGoVwHqJSZ3GsoG4MUSb3U8C5XpM2p56v3TgHolE3vdkIF6FaBepndLJzYAr2Ri92bcX5GpWtlIu8sCjUK9ClDonTImNoARl+8tRHV/ps+I1UXunWah6QL3RHsF6lWATktKXh2aWbRg07rjizjVqmzKqr5GZnIjE5onsphFeOuDdOXlGa1nvtOv2vO5Bai0gn0CdSZQ646uChETjc4Q/4hjFjq0lLXBQvsusw8cMrxk7L49YEBZzMvE0RUWamAz+rGSyZ3QMKAQPrSCvcnlrVv59W+np7pkeeqAClAvMWUUXmmhmVjqGRANIwpQFkejO9RWvkGNAmUhjq1fyEdkDD21g28oBT6rEyOfK0Zj8tgLSSqLNnj05HWU2ey/Eqo6RpaMqLtDgNoZ2ygmdbbJUtUxLt2Kw7J9xkohc4Wl2kZcJFC8TT37d0RmMHLyVZ+eDd7b8RtNAGawK6D2znH2D7RsZ6Fcz0aAMivF59n5/Wqo0NXA4mdvw20onEWBsrICyslPc1NMjVQIaEtLpV5gFCjuZaVFNp6uiqkRoCHrjGT5XgnFPf8WqCHrzAJVEpTFqOgsaleiOrPaVOjKuLx1zhYRDGr2ABVWF0ZcN9o2vcF3BCiUVAadXUVXZEdBKe3DcXM0KR3jqXp0UHS/5w6gcgH/3JMZtdBoZo5Y62qg2YnJE7YVQA1q5GwmKM9O/loJdNgyjWoVUIOKRBU9gs2O/DHIptsqoEMx8+j6lUArQBhULGK8XnDCTjqbz4yhZ7KV4l/JuLPaRBOkrMcMC+2L80wIkJVPNswu4EjdzQTag40kLEnxRKPsQQWhrlYA7cGqNWtoEKTxNPc+63clUOsfq+P4Z7H+eOBKgJBl9W7FqQ8h3XYAPc60EGeR0UdPJtsGsR/QbqBHuAYVgK22RcWAL3s3ZFsXcb6dWSMs0T4PWVR14ysBrR7bFnk30GLsN9AbaDGBYnG3hd5AiwkUi7sttBjob+/mTWTBwRBRAAAAAElFTkSuQmCC"/>
+                            <h5 class="mb-3">Acesso fácil</h5>
+                            <p>Localizada na Avenida wenseslaw bras, a loja tem tudo que voce precisa do mundo do skate, patins e Longboards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAuZJREFUeF7tnI1tFDEUhF8qIVQCVBKoBKiEUElCJZBKEo20RpZ13rW9n/duo7F0SqR4x36fxz96zt5duKAE7lA1i4WBwiYwUAOFCcBydqiBwgRguWs59GtEfFpi+QbH9GPR/hkR/5YP3ERd7kiggvgQEZ+z7jxGBA30V0SorVSeI+J3ROinAE8ts4FegpgHpCC/wBH+jYj7iuZ0uDOAbkEsY/0IOkcgBbSlTIFLAe2FmAestU7rHlGk831ASHD/RISWoF3Lwh6ggqjO16ZXT1yES3vcuda3XXB7gGoz0UcbCwExD0qu0Fq6xx1PxYbXM6C1ut1wW4AKopyY785EZ0sNTf3RKTcDZtk/wdWJZHXQt4AKojp7VGnqdNYZzRQdk2YPdh6/ZpL6ebFsAS3PdEeBlVPTwbzW5jX7Vj07bwF9PYpgpZ10GH+JiA9LHbmRXsN7w6xyu3WgvYEeVd9AYdIGaqAwAVjODjVQmAAsZ4caKEwAlrNDDRQmAMvZoQYKE4Dlhh26duEF9/FUcocCVeotv8a9ZVLKZilz1ZO9UoJZVzZD+VBdem1deQigLrjye+9rp/1aBzE5LSWo0x3ZGuBdCWZ1TI0pmatGNDrpnmXtHwfOBrQcgBKw/q7YlfSuZutVaSsf2jrSZb2zAx2N20CHyQ2uoaPt2aGj5CrPGaiBMgS8KTEc/6sYqIGiBHBD4YJLuN6U0HGPMFADZQh4yjMcvcsvBHBD4YLelGDLG6iBogQ85VGcTjDjhsIFvYbCljdQA0UJeMqjOL0p4YbCBb2GwpY3UANFCXjKozi9KeGGwgW9hsKWN1ADRQl4yqM4vSnhhsIFvYbCljdQA0UJeMqjOL0p4YbCBb2GwpZf5M7ySiNuKFzwREBXXzEc9dksoKPf4zkax8hzq68YjgjqmVlApZ1eadTvPS+njsbS+pzeTU3fydz6THO9mUCbO/GeKhooPJoGaqAwAVjODjVQmAAsZ4fCQN8AdBiNVdd5exwAAAAASUVORK5CYII="/>
+                            <h5 class="mb-3">Melhores Roupas</h5>
+                            <p>As roupas pra voçe andar de skate ou patins no melhor estilo e qualidade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAaBJREFUeF7t2kFuwjAQBdDhZr1Z25v1ZlSpkLrBSTz6qSz6IrHCHpGXDx6c3MoRFbhFqylWQMMhAAo0LBAuJ6FAwwLhcisn9KOq3gfn+1lV2/vLHUDDlwQo0B8BX/lGEPyGNtD2pgAFWkv/l5dQCZXQcAaAAn0I6EMbUbAoNdD0oWE0oED3Bew2hRMCFKjtu24GtE1ducE8oED9lw9nAOi/An2rqu317Piqqu213LFyH7oc1pkPBPSM0sQYoBNYZ4YCPaM0MQboBNaZoUDPKE2MOQK9+pHBK9qfvXZrgmZ36NDlCPSe+gSDOlfcbNvbA0idztANaI8YaM9tOAso0L6A39C+3dOZS4Nqm55f7XbbFA7P65c7apteXyB8hkCBhgXC5SQUaFggXG7lhLpJF77YnhwB6kGHcAaAAn0IXLHTH8FdeZW3KEUu8W8RoEAtSuEMAAVqle9nwKLUt5u+2aYPbWBLaANtbwpQoNqmcAaAAtWH9jNgUerb6UPDdkCBDgTs2IejsTJo+FT/phzQsDNQoGGBcDkJBRoWCJeT0DDoN/oZfFUiw8CTAAAAAElFTkSuQmCC"/>
+                            <h5 class="mb-3">Cultura</h5>
+                            <p>Nossa missão é difundir a cultura do sport com super descontos pra quem não pode pagar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- sobre Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/inside.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Sobre Nós</h6>
+                    <h1 class="mb-4">Bem vindo a Skate'n'roll</h1>
+                    <p class="mb-4">Bem-vindo ao nosso site de e-commerce dedicado à venda de itens de skate, patins e longboards! Nossa missão é difundir a cultura do skate e dos esportes sobre rodas, tornando-os acessíveis</p>
+                    <p class="mb-4">Na nossa loja, você encontrará tudo o que precisa para aproveitar ao máximo sua experiência nas ruas ou nas pistas. Nossa equipe está pronta para ajudar e responder a quaisquer perguntas que você possa ter.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Marcas</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Tamanhos</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Cores</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Funcionalidades</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Instalação</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Garantia</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/Vejamais.html">Veja mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sobre End -->
+
+
+    <!-- Narcas Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Peças</h6>
+                <h1 class="mb-5">Principais Marcas</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/dropdead2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">DropDead</h5>
+                                    <small class="text-primary">49 Items</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/sandalia.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Havaianas</h5>
+                                    <small class="text-primary">32 Items</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/almost1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Almost</h5>
+                                    <small class="text-primary">19 Itens</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/parts.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Crail, Maha e outras</h5>
+                            <small class="text-primary">215 itens</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Marcas end -->
+
+
+    <!-- Montados Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Montados</h6>
+                <h1 class="mb-5">Montados mais Populares</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/almostskate.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Veja Mais</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(215)</small>
+                            </div>
+                            <h5 class="mb-4">Durabilidade, leveza e agilidade</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Elite</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Fibra de Carbono</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Abec-9</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/patins.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Veja Mais</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$101.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Ideal para um começo de carreira</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Conforto</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Velocidade</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Economia</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="/C:/Users/Guilherme%20Bertuol/Downloads/elearning-html-template/img/santacruz2.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Veja mais</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$210.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(35)</small>
+                            </div>
+                            <h5 class="mb-4">Adrenalina sem Limites</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Velocidade</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Estabilidade</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Durabilidade</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Montados End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Crew</h6>
+                <h1 class="mb-5">Nosso Time</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Henrique Barbosa</h5>
+                            <small>Vendedor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Talita Santos</h5>
+                            <small>Designer de Loja</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Guilherme Ferreira</h5>
+                            <small>Gerente e vendedor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Valeria Rocha</h5>
+                            <small>Marketing</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">O que dizem nossos clientes!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Maria Fernanda</h5>
+                    <p>Youtuber</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Estive na loja dia 26, o design é incrivel, sai de la e fui direto pra pista</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Pedro</h5>
+                    <p>Skatista</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Melhor shape que ja comprei foi da almost, estou com ele a 2 anos já</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Mario</h5>
+                    <p>Fotografo</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Adorei a loja, quando precisar de mais coisa concerteza voltarei</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Helena madureira</h5>
+                    <p>youtuber</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Link Rapido</h4>
+                    <a class="btn btn-link" href="">Sobre Nós</a>
+                    <a class="btn btn-link" href="">Contato</a>
+                    <a class="btn btn-link" href="">Politicas de Privacidade</a>
+                    <a class="btn btn-link" href="">Termos e condições</a>
+                    <a class="btn btn-link" href="">FAQs & Ajuda</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contato</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 wenseslaw bras, Curitiba, PR</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>skatenroll@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Galeria</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Skate'n'roll</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Ajuda</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
