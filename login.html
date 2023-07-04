@@ -28,33 +28,7 @@
     
     
         
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('form').on('submit', function(event) {
-                event.preventDefault();
-
-                var username = $('input[name="username"]').val();
-                var password = $('input[name="password"]').val();
-
-                // Send an AJAX request to the Python script
-                $.ajax({
-                    url: 'login.py',
-                    method: 'GET' ,
-                    data: {username: username, password: password},
-                    success: function(response) {
-                        // Handle the response from the Python script
-                        console.log(response);
-                        // Perform any necessary actions after successful login
-                    },
-                    error: function(xhr, status, error) {
-                        console.error(error);
-                        // Handle any errors that occur during the AJAX request
-                    }
-                });
-            });
-        });
-    </script>
+    
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0 my-nav">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
